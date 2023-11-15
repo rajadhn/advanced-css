@@ -1,0 +1,37 @@
+Advanced CSS.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+</head>
+<style>
+    :root {
+        --primarycolor:#00b7ff;
+        --secondarycolor: #6c757d;
+    }
+    button {
+        font-size: 25px;
+        border: none;
+        padding: 5px 20px;
+        color: white;
+    }
+    #primaryBtn {
+        background-color: var(--primarycolor);
+    }
+    #secondaryBtn {
+        background-color: var(--secondarycolor);
+    }
+</style>
+<body>
+    <button id="primaryBtn">Primary Button</button>
+    <button id="secondaryBtn">Secondary Button</button>
+</body>
+</html>
+<br>
+<a href="Cube task.html"> <h1>Cube Task </h1></a> <br>
+<a href="Circular Loader.html"><h1>Circular Loader Task</h1></a>
+
+
+
